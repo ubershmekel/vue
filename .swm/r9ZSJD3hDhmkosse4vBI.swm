@@ -29,7 +29,7 @@
     "solution_files": [
         "src/core/vdom/helpers/resolve-async-component.js"
     ],
-    "description": "SW4lMjB0aGlzJTIwVW5pdCUyQyUyMHdlJ2xsJTIwZml4JTIwYSUyMG1lbW9yeSUyMGxlYWslMjB0aGF0JTIwd291bGQlMjBvY2N1ciUyMGFmdGVyJTIwc3luY2hyb25vdXMlMjBhc3luYyUyMGxvYWRpbmcuJTBBJTBB",
+    "description": "SW4lMjB0aGlzJTIwVW5pdCUyQyUyMHdlJ2xsJTIwZml4JTIwYSUyMG1lbW9yeSUyMGxlYWslMjB0aGF0JTIwd291bGQlMjBvY2N1ciUyMGFmdGVyJTIwYSUyMHN5bmNocm9ub3VzJTIwYXN5bmMlMjBjb21wb25lbnQlMjBpcyUyMGxvYWRlZC4=",
     "app_version": "0.1.2",
     "file_version": "1.0.1"
 }
