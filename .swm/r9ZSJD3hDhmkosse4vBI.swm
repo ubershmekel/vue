@@ -1,8 +1,14 @@
 {
     "id": "r9ZSJD3hDhmkosse4vBI",
     "name": "Memory Leak When Using Synchronous Loading With Async Components",
-    "tests": [],
-    "hints": [],
+    "tests": [
+        "npm run test"
+    ],
+    "hints": [
+        "The array of owners needs to be empty when resolveAsyncComponent sync resolves",
+        "See the original issue at: https://github.com/vuejs/vue/issues/9229",
+        "See the pull request: https://github.com/vuejs/vue/pull/9275"
+    ],
     "files": {
         "src/core/vdom/helpers/resolve-async-component.js": {
             "index": [
@@ -23,7 +29,7 @@
     "solution_files": [
         "src/core/vdom/helpers/resolve-async-component.js"
     ],
-    "description": "SW4lMjB0aGlzJTIwVW5pdCUyQyUyMHdlJ2xsJTIwZml4JTIwYSUyMG1lbW9yeSUyMGxlYWslMjB0aGF0JTIwd291bGQlMjBvY2N1ciUyMGFmdGVyJTIwc3luY2hyb25vdXMlMjBhc3luYyUyMGxvYWRpbmclMEElMEFodHRwcyUzQSUyRiUyRmdpdGh1Yi5jb20lMkZ2dWVqcyUyRnZ1ZSUyRnB1bGwlMkY5Mjc1JTBBJTBBaHR0cHMlM0ElMkYlMkZnaXRodWIuY29tJTJGdnVlanMlMkZ2dWUlMkZpc3N1ZXMlMkY5MjI5",
+    "description": "SW4lMjB0aGlzJTIwVW5pdCUyQyUyMHdlJ2xsJTIwZml4JTIwYSUyMG1lbW9yeSUyMGxlYWslMjB0aGF0JTIwd291bGQlMjBvY2N1ciUyMGFmdGVyJTIwc3luY2hyb25vdXMlMjBhc3luYyUyMGxvYWRpbmcuJTBBJTBB",
     "app_version": "0.1.2",
     "file_version": "1.0.1"
 }
